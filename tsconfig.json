@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["dom", "esnext"],
+    "importHelpers": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.txt"],
+  "exclude": ["./node_modules"]
+}
